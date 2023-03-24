@@ -1,4 +1,24 @@
-![monty](https://onlineacademiccommunity.uvic.ca/callmebog/wp-content/uploads/sites/219/2020/06/ignore-textbook-700x221.jpg)
+# 0x19. C - Stacks, Queues - LIFO, FIFO
+
+## Requirements
+- All your files will be compiled on Ubuntu 20.04 LTS using gcc, using the options -Wall -Werror -Wextra -pedantic -std=c89
+- All your files should end with a new line
+- A README.md file, at the root of the folder of the project is mandatory
+- Your code should use the Betty style. It will be checked using betty-style.pl and betty-doc.pl
+- You allowed to use a maximum of one global variable
+- No more than 5 functions per file
+- You are allowed to use the C standard library
+- The prototypes of all your functions should be included in your header file called monty.h
+- Don’t forget to push your header file
+- All your header files should be include guarded
+- You are expected to do the tasks in the order shown in the project
+
+## Compilation & Output
+- Your code will be compiled this way:
+
+```
+$ gcc -Wall -Werror -Wextra -pedantic -std=c89 *.c -o monty
+```
 
 # Monty
 
@@ -42,28 +62,12 @@ pall This is the end of our program. Monty is awesome!$
 
 # Usage
 
-All the files are compiled in the following form:
-
-```
- gcc -Wall -Werror -Wextra -pedantic *.c -o monty.
-```
-
 To run the program:
 
 ```
  ./monty bytecode_file
  
 ```
-
-
-
-![last](https://miro.medium.com/max/300/1*ZFBsKK2_8BHSgsOjJb9MLQ.png)
-
-
-
-
-
-## gcc -Wall -Werror -Wextra -pedantic *.c -o monty
 
 
 
